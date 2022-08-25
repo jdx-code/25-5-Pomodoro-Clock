@@ -77,6 +77,11 @@ function App() {
     const clock = () => {
         if(play){
             timeout
+            // setTimeout(() => {
+            //     if(displayTime && play){
+            //         setDisplayTime(displayTime - 1)
+            //     }
+            // }, 1000);
             resetTimer()
         } else {
            clearTimeout(timeout)       
